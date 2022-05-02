@@ -96,6 +96,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #F9D2D9;
+    z-index: 1;
 }
 .main-head a{
   color: #424242;
@@ -123,7 +124,7 @@ header {
   margin-right: auto;
   margin-bottom: 50px;
   padding:1% 0 0 0;
-  border-radius: 100px;
+  border-radius: 0 0 100px 100px;
   text-align: center;
   background-color: #84CCCE;
 }
@@ -241,4 +242,16 @@ div h1{
 }
 #plan h1{
   margin-bottom: 0;
+}
+/*フェードインアウト部分*/
+.fade_off{
+  opacity: 0;
+  -webkit-transition:all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.fade_on{
+  opacity: 1;
 }
