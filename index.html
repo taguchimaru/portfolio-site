@@ -118,12 +118,12 @@
         <p>TwitterのDMでも依頼対応をしております。<br>お気軽にお問い合わせください。</p>
         <form action="https://formspree.io/f/xgedpene" method="post">
             <div>
-              <label for="name">お名前</label>
-              <input type="text" placeholder="YourName" name="your-name"　>
+              <label for="name">お名前*</label>
+              <input type="text" placeholder="YourName" name="your-name" required>
             </div>
             <div>
-              <label>メールアドレス</label>
-              <input type ="email" placeholder="EmailAddress" name="your-email">
+              <label>メールアドレス*</label>
+              <input type ="email" placeholder="EmailAddress" name="your-email" required>
             </div>
             <div>
               <label>プラン</label>
@@ -136,8 +136,8 @@
               </select>
             </div>
             <div>
-              <label>メッセージ</label>
-              <textarea id="formmessage" name="your-Message" placeholder="YourMessage"></textarea>
+              <label>メッセージ*</label>
+              <textarea id="formmessage" name="your-Message" placeholder="YourMessage" required></textarea>
             </div>
             <div>
               <button class="button" type="submit" id="button">Send</button>
