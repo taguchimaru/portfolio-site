@@ -255,3 +255,26 @@ div h1{
 .fade_on{
   opacity: 1;
 }
+/*横SNS部分*/
+.sns{
+  position: fixed;
+  display: flex;
+  left: 1%;
+  bottom: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+.sns h3 {
+  writing-mode: vertical-rl;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.sns a:not(:last-child){
+  margin-bottom: 10px;
+}
+.sns .icon1 {
+  width: 40px;
+}
+.sns .icon2 {
+  width: 15px;
+}
